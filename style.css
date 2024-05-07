@@ -1,0 +1,95 @@
+/* general */
+
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    color:#2b4447;
+    background-color: #d55d45;
+}
+
+h1 {
+    margin-left: 25vw;
+}
+
+.st > a {
+    text-decoration: none;
+}
+
+.st > a:link {
+    color: #2b4447;
+}
+
+.st > a:visited {
+    color: #2b4447;
+}
+
+.st > a:hover {
+    display: inline-block;
+    padding: 0 .25em;
+    background:#1e9591;
+}
+
+.isbn {
+    color: blue
+}
+
+/* index */
+
+#imagepresentation {
+    display: flex;
+    justify-content: center;
+}
+
+.lst_sommary {
+    width: 25vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    background-color: #0ef2ea;
+}
+
+.imageindex {
+    height: 40vh;
+    width: auto;
+}
+
+.sommaire {
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+}
+
+.lst_sommary {
+    padding: 20px;
+    list-style: none;
+}
+
+/* grille */
+
+.tableau {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.tableau > div {
+    background-color: #0ef2ea;
+    border-radius: 10px;
+}
+
+.sama {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.imagenomenclature {
+    align-items: center;
+}
