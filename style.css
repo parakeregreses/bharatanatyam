@@ -76,13 +76,13 @@ h1 {
     padding: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
 }
 
 .tableau > div {
     background-color: #0ef2ea;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .sama {
@@ -90,6 +90,18 @@ h1 {
     grid-row: 1;
 }
 
+.airamandi {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.muzhumandi {
+    grid-column: 3;
+    grid-row: 1;
+}
+
 .imagenomenclature {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-height: 100 px;
 }
